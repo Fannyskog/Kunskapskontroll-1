@@ -1,0 +1,41 @@
+.item-footer {
+background-color:white;
+border:0.2rem solid black;
+border-right: none; border-left: none;
+display: flex;
+justify-content: center;
+padding:1rem;
+margin:0;
+}
+.footer {
+    height:13rem;
+    background: linear-gradient(to left, #3773ac 50%, #adadd4 100%, white 50% 100%);
+}
+
+.footer[title="footer-text"]{
+    color: white;
+    font-weight:bold;
+    font-size:1.8rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.fab {
+    color:white;
+    position: relative;
+    bottom:-150px;
+    left:-2px;
+    padding:0;
+    margin:1rem;
+
+}
+.fab:hover {
+    color:black;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+

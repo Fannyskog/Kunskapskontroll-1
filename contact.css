@@ -1,0 +1,31 @@
+#contact-me {
+   padding: 15px 35px;
+   height:80px;
+   width:200px;
+   position: relative;
+   align-items: center;
+   top:20px;
+   border: 0.1rem solid black;
+   
+}
+#email {
+   border:0.1rem solid black;
+   padding:5px 15px;
+   position:relative;
+   top:20px;
+}
+.form {
+width:75%;
+    min-height:100vh;
+    padding-left:8%;
+    padding-right:8%;
+    overflow:hidden;
+}
+@media screen and (max-width:480px) {
+.form {
+border:0.2rem solid black;
+background: linear-gradient(to left, #b6e4d1 50%, #b0b0db 100%, white 50% 100%);
+
+}
+  
+}
